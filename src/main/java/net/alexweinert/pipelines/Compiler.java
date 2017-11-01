@@ -1,4 +1,4 @@
-package net.alexweinert.coolc.infrastructure;
+package net.alexweinert.pipelines;
 
 public class Compiler<T> {
     private final Frontend<T> frontend;

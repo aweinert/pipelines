@@ -1,4 +1,4 @@
-package net.alexweinert.coolc.infrastructure;
+package net.alexweinert.pipelines;
 
 class CompositeFrontend<T, U> extends Frontend<U> {
     final Frontend<T> frontend;

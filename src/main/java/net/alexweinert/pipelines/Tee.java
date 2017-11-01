@@ -1,4 +1,4 @@
-package net.alexweinert.coolc.infrastructure;
+package net.alexweinert.pipelines;
 
 public class Tee<T> extends Processor<T, T> {
     private final Backend<T> backend;

@@ -1,4 +1,4 @@
-package net.alexweinert.coolc.infrastructure;
+package net.alexweinert.pipelines;
 
 class CompositeProcessor<T, U, V> extends Processor<T, V> {
     final private Processor<T, U> firstProcessor;

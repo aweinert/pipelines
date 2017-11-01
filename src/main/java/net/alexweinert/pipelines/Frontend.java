@@ -1,4 +1,4 @@
-package net.alexweinert.coolc.infrastructure;
+package net.alexweinert.pipelines;
 
 public abstract class Frontend<T> {
     public abstract T process() throws ProcessorException;

@@ -1,4 +1,4 @@
-package net.alexweinert.coolc.infrastructure;
+package net.alexweinert.pipelines;
 
 class CompositeBackend<T, U> implements Backend<T> {
     final private Processor<T, U> previousProcessor;
